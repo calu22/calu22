@@ -1,7 +1,43 @@
-body {
-  background-color: powderblue;
+*{
+  font-family: verdana, sans-serif;
+}
+/*NAVIGATION BAR*/
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #abd0db;
+  }
+
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #abd0db;
+  }
+
+h1{
+  padding-top: 150px;
+  float: right;
+  font-weight: normal;
 }
 
-*{
-  font-family: Sans-serif;
+h3{
+  padding-top: 200px;
+  font-weight: normal;
+  text-align: left;
+  float: right;
+}
+
+.trial{
+  padding-top: 200px;
+  width: 300px;
 }
